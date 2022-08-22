@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/60f0166554.js" crossorigin="anonymous"></script>
+    <title>pink floyd</title>
+</head>
+<body>
+    <!--------------------------------HOMEPAGE---------------------------------------------->
+    <section class="homepage section" id="home">
+        <nav class="navbar">
+            <ul>
+                <a href="#home">HOME</a>
+                <a href="https://en.wikipedia.org/wiki/Pink_Floyd">BAND</a>
+                <a href="http://www.pinkfloyd.net/albums/">ALBUMS</a>
+                <a href="https://shop.pinkfloyd.com/">MERCH</a>
+                <div class="dropdown">
+                    <a href="">MORE <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li class="dropdown-content-item"><a href="#contact">CONTACT</a></li>
+                            <li class="dropdown-content-item"><a href="https://www.pinkfloyd.com/socials/index.php">SOCIAL</a></li>
+                            <li class="dropdown-content-item"><a href="https://www.pinkfloyd.com/news/index.php">TOUR</a></li>
+                        </ul>
+                    </div>
+            </ul>
+            <img class="logo" src="images/Pink_Floyd_logo.jpg" alt="PINK FLOYD" height="50" width="180">
+            <i class="fas fa-search search"></i>
+        </nav>
+        <div class="homepage-description">
+            <span class="homepage-desc-heading">Chicago</span>
+            <p class="homepage-desc-para"></p>
+        </div>
+    </section>
+
+    <!---------------------------------------BAND---------------------------------------------------------------------------------->
+    <section class="band" id="band">
+        <div class="container">
+            <p class="heading">PINK FLOYD</p>
+            <i class="band-heading-desc"> We love music</i>
+            <p class="band-para">Pink Floyd, British rock band at the forefront of 1960s psychedelia who later popularized the concept album for mass rock audiences in the 1970s. The principal members were lead guitarist Syd Barrett (original name Roger Keith Barrett; b. January 6, 1946, Cambridge, Cambridgeshire, England—d. July 7, 2006, Cambridge), bassist Roger Waters (b. September 6, 1943, Great Bookham, Surrey), drummer Nick Mason (b. January 27, 1945, Birmingham, West Midlands), keyboard player Rick Wright (in full Richard Wright; b. July 28, 1945, London—d. September 15, 2008, London), and guitarist David Gilmour (b. March 6, 1944, Cambridge).
+            </p>
+            <div class="band-image-collection">
+                <div class="band-image">
+                    <span class="member-name">DAVID GLIMOUR</span>
+                    <img src="images/david glimore.jpg" alt="DAVID GLIMORE" height="150" width="150">
+                </div>
+                <div class="band-image">
+                    <span class="member-name">ROGER WATERS</span>
+                    <img src="images/roger waters.jpg" alt="ROGER WATERS" height="150" width="150">
+                </div>
+                <div class="band-image">
+                    <span class="member-name">RICHARD WRIGHT</span>
+                    <img src="images/richard wright.png" alt="RICHARD WRIGHT" height="150" width="150">
+                </div>
+            </div>
+        </div>
+    </section>
+<!-----------------------------TOUR--------------------------------------------------------------------------------------------------->
+    <section class="tour section" id="tour">
+        <div class="container">
+            <p class="heading tour-heading">TOUR DATES</p>
+            <i class="tour-block-desc">Remember to book your tickets!</i>
+            <div class="tour-block-white-div">
+                <p class="month">September</p>
+                <button class="red-button">Sold Out</button>
+            </div>
+            <hr class="hr">
+            <div class="tour-block-white-div">
+                <p class="month">October</p>
+                <button class="red-button">Sold Out</button>
+            </div>
+            <hr class="hr">
+            <div class="tour-block-white-div">
+                <p class="month">November</p>
+            </div>
+    <!----------------IMAGE CARDS---------------------->
+            <div class="tour-img-container">
+                <div class="tour-img-card">
+                    <img src="images/newYork.jpg" alt="new york" height="200" width="240">
+                    <p class="tour-image-card-heading">New york</p>
+                    <p class="tour-image-card-date">SUN 1 Nov 2022</p>
+                    <p class="tour-image-card-desc">Radio City Music Hall</p>
+                    <button class="tour-button button">Buy Tickets</button>
+                </div>
+
+                <div class="tour-img-card">
+                    <img src="images/Paris.jpg" alt="new york" height="200" width="240">
+                    <p class="tour-image-card-heading">Paris</p>
+                    <p class="tour-image-card-date">Fri 10 Nov 2022</p>
+                    <p class="tour-image-card-desc">L'Olympia Bruno Coquatrix</p>
+                    <button class="tour-button button">Buy Tickets</button>
+                </div>
+
+                <div class="tour-img-card">
+                    <img src="images/sanFransisco.jpg" alt="new york" height="200" width="240">
+                    <p class="tour-image-card-heading">San Fransisco</p>
+                    <p class="tour-image-card-date">SAT 21 Nov 2022</p>
+                    <p class="tour-image-card-desc">Great American Music Hall</p>
+                    <button class="tour-button button">Buy Tickets</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------------------------------MODAL--------------------------------------------------->
+    <div id="modal">
+        <div class="modal-heading-container">
+            <p class="modal-heading heading"><i class="fas fa-suitcase"></i>Tickets</p>
+        </div>
+        <div class="modal-input">
+            <label for="modal-input-people"><i class="fas fa-shopping-cart"></i>Tickets,$15 per person</label>
+            <input type="text" id="modal-input-people" placeholder="How many?">
+        </div>
+        <div class="modal-input">
+            <label for="modal-input-email"><i class="fas fa-user"></i>Send To</label>
+            <input type="email" id="modal-input-email" placeholder="Enter Email">
+        </div>
+        <div class="modal-input">
+            <button class="modal-pay-button"><i class="fas fa-check"></i>PAY</button>
+        </div>
+       <div class="modal-footer">
+           <button class="modal-close-button">Close<i class="fas fa-times"></i></button>
+           <p class="modal-footer-p" style="margin-right:20px;">Need help?</p>
+       </div>
+    </div>
+<!------------------------------------------CONTACT-------------------------------------------------------------------------------------->
+    <section class="contact" id="contact">
+        <div class="container">
+            <p class="heading">CONTACT</p>
+            <i class="contact-desc">Fan? Drop a note!</i>
+            <div class="contact-flex">
+                <div class="contact-address">
+                    <p>Chicago,US</p>
+                    <p>Phone:+00 151515</p>
+                    <p>Email: pinkfloyd@mail.com</p>
+                </div>
+                <div class="contact-input">
+                    <div class="contact-name-email">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="contact-message">
+                        <input type="text" placeholder="Message">
+                    </div>
+                    <div class="contact-button-class">
+                        <button class="button">
+                            SEND
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-----------------------------------------------------MAP-------------------------------------------------------------------------------> 
+    <section class="section" id="map">
+        
+    </section>
+    
+<!--------------------------------------------FOOTER------------------------------------------------------------------------------------->
+    <section class="footer">
+        <div class="icon">
+
+        </div>
+        <p class="footer-desc">
+            copyright©️pink floyd
+        
+        </p>
+    </section>
+    <script src="script.js"></script>
+    <h1><strong>francis</strong> </h1>
+</body>
+
+</html>
