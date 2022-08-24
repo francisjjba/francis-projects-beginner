@@ -1,7 +1,0 @@
-create a firebase -> learn to add firebase 
-add working button -> learn to add button with on click
-add input to take from the input 
-add a tasks displayer 
-add a hover extra screen |update screen 
-add a update button 
-add blank text when the button is pressed
