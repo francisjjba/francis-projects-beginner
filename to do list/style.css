@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+.heading {
+  position: fixed;
+  left: 37%;
+  bottom: 80%;
+  font-size: 400%;
+  font-family: "Righteous", cursive;
+}
+
+body {
+  position: absolute;
+  bottom: 55%;
+  left: 37%;
+  background-color: rgb(255, 255, 255);
+}
+
+.inputbox {
+  width: 150%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  background-color: transparent;
+}
+
+#addbutton {
+  background-color: rgb(77, 108, 247);
+  font-size: 20px;
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.4s;
+}
+
+#addbutton:hover {
+  background-color: blue;
+  color: white;
+}
+
+/* #todotasks {
+  position: fixed;
+  top: 42%;
+} */
+
+/* #tasks { */
+/* background-color: transparent; */
+/* border: none; */
+/* } */
